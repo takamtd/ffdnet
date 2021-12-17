@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+japanize-matplotlib = "*"
+numpy = "*"
+matplotlib = "*"
+scikit-image = "*"
+torchvision = {file = "https://download.pytorch.org/whl/cu111/torchvision-0.9.1%2Bcu111-cp39-cp39-linux_x86_64.whl"}
+torch = {file = "https://download.pytorch.org/whl/cu111/torch-1.9.0%2Bcu111-cp39-cp39-linux_x86_64.whl"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
